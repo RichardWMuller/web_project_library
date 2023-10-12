@@ -22,10 +22,12 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__logo {
   justify-content: flex-start;
+  height: 60px;
   max-width: 601px;
   max-width: 532px;
 }
@@ -37,6 +39,7 @@
   list-style-type: none;
   padding: 0;
   color: #2f80ed;
+  align-items: center;
 }
 
 .nav__link {
